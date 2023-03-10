@@ -6,7 +6,7 @@ import os
 import openai
 from colorama import init, Fore, Style
 
-openai.api_key = "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"
+openai.api_key = "API Key Here!"
 
 # Clear the terminal
 os.system('cls' if os.name=='nt' else 'clear')
