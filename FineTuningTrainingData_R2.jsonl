@@ -1,0 +1,114 @@
+{"prompt": "Toggle the motor using a single start/stop button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a single start/stop pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a single start/stop push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a start/stop button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a start/stop pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a start/stop push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStp;"}
+{"prompt": "Toggle a motor using a single start/stop button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a motor using a single start/stop pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a motor using a single start/stop push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a motor using a start/stop button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a motor using a start/stop pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a motor using a start/stop push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStp;"}
+{"prompt": "Toggle a single motor using a start/stop button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a single motor using a start/stop pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a single motor using a start/stop push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a single mtr using a start/stop button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a single mtr using a start/stop pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle a single mtr using a start/stop push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a single button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a single pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a single push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using a push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor using the pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using the push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using a single button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using a single pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using a single push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using a button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using a pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using a push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using the pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the mtr using the push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the conveyor when I press the button input", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the conveyor when I press the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the conveyor on and off when I press the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the conveyor on and off when I press the pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the conveyor on and off when I press the push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the conveyor on/off when I press the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the conveyor on/off when I press the pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the conveyor on/off when I press the push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please toggle the output each time I press the push button input", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is one motor and one PB. When the PB is pressed toggle the motor output.", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Change the output state of the motor on a rising edge of a pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Change the output state of the motor on a rising edge of a push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Change the output state of the motor on a rising edge of a button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor on & off when I push the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Toggle the motor on & off when I push the push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a single motor that needs to start & stop using a single button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a single motor that needs to start & stop using a single push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a single motor that needs to start & stop using a single pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a single motor that needs to start and stop using a single button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a single motor that needs to start and stop using a single push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a single motor that needs to start and stop using a single pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Change the status of the motor each time the button is pressed", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Change the status of the motor each time the pushbutton is pressed", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Change the status of the motor each time the push button is pressed", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a motor that needs to start & stop using a single button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a motor that needs to start & stop using a single push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "There is a motor that needs to start & stop using a single pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please start and stop the conveyor when I press the button input", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please start and stop the conveyor when I press the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Please start the conveyor when I press the button and stop it when I press it again", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Start and stop the motor when I press the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Start and stop the motor when I press the pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Start and stop the motor when I press the push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Turn the motor on and off when I push the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Turn the motor on and off when I push the push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Turn the motor on and off when I push the pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Turn the motor on/off when I push the pushbutton", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Turn the motor on/off when I push the push button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "Turn the motor on/off when I push the button", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "start and stop the conveyor on PB", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "start/stop the conveyor on PB", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "start and stop the motor on PB", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "start/stop the motor on PB", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "start and stop the conv on PB", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "start/stop the conv on PB", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "start and stop the conveyor using the PB", "completion": "\nIF iSttStpPB AND NOT sttStpPB_Last THEN\n\toConvMotor := NOT oConvMotor;\nEND_IF\n\nsttStpPB_Last := iSttStpPB;"}
+{"prompt": "when the start button is pressed start the conveyor. When the stop is pressed stop the conveyor", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "when the start pushbutton is pressed start the conveyor. When the stop is pressed stop the conveyor", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "when the start PB is pressed start the conveyor. When the stop is pressed stop the conveyor", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "start the conveyor when the start is pressed and stop when the stop is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "start the conveyor motor when the start is pressed and stop when the stop is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "start the conveyor motor when the start PB is pressed and stop when the stop is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "start the conveyor motor when the start PB is pressed and stop when the stop pushbutton is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "start the conveyor motor when the start PB is pressed and stop when the stop button is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "conveyor starts when the start is pressed, conveyor stops when stop is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "conveyor starts when the start button is pressed, conveyor stops when stop is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "conveyor starts when the start PB is pressed, conveyor stops when stop is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "motor starts when the start PB is pressed, motor stops when stop is pressed", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "conveyor starts and stops with the respective buttons", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "conveyor starts and stops with the respective PB's", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "conveyor starts and stops with the respective PBs", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "conveyor starts and stops with the respective pushbuttons", "completion": "\nIF iSttPB THEN\n\toConvMotor := 1;\nELSIF iStpPB\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "the conveyor runs only when both start buttons are pressed", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "the conveyor runs only when both start PB's are pressed", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "the conveyor runs only when both start Pushbuttons are pressed", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "run the conveyor when both start buttons are pressed", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "run the conveyor when both start PB's are pressed", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "this is a safety application. only run the conveyor when both buttons are pressed. ", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "For safety reasons. only run the conveyor when both buttons are pressed. ", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "only run the conveyor when both buttons are pressed. ", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "Run the conveyor when both buttons are pressed, if only one is pressed dont run. ", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "Run the conveyor when both buttons are pressed simultaneously", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "Run the conveyor if both buttons are pressed simultaneously", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "only run the conveyor if both start buttons are pressed", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "only run the conveyor if both buttons are pressed", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "Double hand press required to start conveyor", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "Two handed press required to start conveyor", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
+{"prompt": "Two handed press required to start motor", "completion": "\nIF iSttPB_1 AND iSttPB_2 THEN\n\toConvMotor := 1;\nELSE\n\toConvMotor := 0;\nEND_IF;"}
