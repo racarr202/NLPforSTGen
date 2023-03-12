@@ -1,0 +1,112 @@
+<!-- This is a comment in HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GPT PoC</title>
+
+    <script type="text/javascript">
+        function copyIDToClipboard(id) {
+            const el = document.createElement('textarea');
+            el.value = document.getElementById(id).textContent;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+        }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Font+Name" rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .promptInput {
+            width: 30%;
+        }
+        .codeTable {
+            border-collapse: collapse;
+            margin-top: 30px;
+            table-layout: fixed;
+            width: 70%;
+        }
+        .codeTable td {
+            width: 33.33%;
+        }
+        .codeTable th, .codeTable td {
+            border: 2px solid black;
+            padding: 5px;
+        }
+        .codeTable .copClip{
+            text-align: right;
+        }
+        .codeTable .code {
+            vertical-align: top;
+        }
+        .codeTable .code pre {
+            white-space: pre-wrap; /* Preserve whitespace but allow wrapping */
+            tab-size: 3; /* Set tab size to 2 characters */
+            margin-top: 5px;
+        }
+        #input_text {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .formHeading {
+            font-weight: bold;
+            font-size: large;
+        }
+        .formeg {
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to Richard Carr's structured text GPT-3 proof of concept application!</h1>
+    <p>
+        This application is intended to showcase the ability of OpenAI's GPT-3 to generate structured text PLC code from ordinary English language.<br><br>
+        The model is trained to generate code for the following industrial scenarios:<br>
+        <ol>
+            <li>A conveyor that is started and stopped with a single pushbutton.</li>
+            <li>A conveyor started and stopped with independent start/stop pushbuttons.</li>
+            <li>A conveyor with two hand button press to run.</li>
+        </ol>
+        Please select one scenario and write in plain English what you want the code to do.<br>
+        Your answer will be put through three different natural language models, Base GPT-3, Codex followed by my personally fine-tuned model (FTM).<br><br>
+        Note: You do not need to preface your prompt with anything like, "Please write PLC code" as this will be added for you.
+    </p><br>
+    
+    <form action="/" method="get">
+        <label class="formHeading" for="input_text">Enter your prompt:</label><br>
+        <label class="formeg" for="input_text">eg. 'start the motor when the button is pressed':</label><br>
+        <input type="text" id="input_text" name="userPrompt" class="promptInput" value="{{ request.args.get('userPrompt', '') }}"><br>
+        <input type="submit" value="Generate Response">
+    </form>
+    {% if model1Output is defined and model2Output is defined and model3Output is defined and prompt1 is defined and prompt2 is defined and prompt3 is defined %}
+    <table class="codeTable">
+        <tr>
+          <th>GPT-3</th>
+          <th>Codex</th>
+          <th>FTM</th>
+        </tr>
+        <tr>
+            <td class="code"><pre id="prompt1">{{ prompt1 }}</pre></td>
+            <td class="code"><pre id="prompt2">{{ prompt2 }}</pre></td>
+            <td class="code"><pre id="prompt3">{{ prompt3 }}</pre></td>
+        </tr>
+        <tr>
+            <td class="copClip">&#x1F4CB; <button onclick="copyIDToClipboard('model1')">Copy to Clipboard</button></td>
+            <td class="copClip">&#x1F4CB; <button onclick="copyIDToClipboard('model2')">Copy to Clipboard</button></td>
+            <td class="copClip">&#x1F4CB; <button onclick="copyIDToClipboard('model3')">Copy to Clipboard</button></td>
+        </tr>
+        <tr>
+          <td class="code"><pre id="model1">{{ model1Output }}</pre></td>
+          <td class="code"><pre id="model2">{{ model2Output }}</pre></td>
+          <td class="code"><pre id="model3">{{ model3Output }}</pre></td>
+        </tr>
+      </table>
+    {% endif %}
+</body>
+</html>
