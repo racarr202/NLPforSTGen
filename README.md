@@ -7,3 +7,12 @@ The proof of concept is showcased in this video. https://www.youtube.com/watch?v
 I have included in this repository my proof of concept application (you will need to use your own OpenAI API key and generatre your own FTM) and my current JSONL dataset file which was used to train the model in the above proof of concept video. 
 
 If you are keen to tontribute to the datafile please drop me a line at racarr202@gmail.com
+
+---Application Revisions---
+Rev1: Not published
+Rev2: Command line interface
+Rev3: Flask Jinja2 web interface
+
+---Dataset Revisions---
+Rev1: Not published
+Rev2: Three scenarios
