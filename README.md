@@ -9,10 +9,16 @@ I have included in this repository my proof of concept application (you will nee
 If you are keen to tontribute to the datafile please drop me a line at racarr202@gmail.com
 
 ---Application Revisions---
+
 Rev1: Not published
+
 Rev2: Command line interface
+
 Rev3: Flask Jinja2 web interface
 
 ---Dataset Revisions---
+
 Rev1: Not published
+
 Rev2: Three scenarios
+
